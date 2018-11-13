@@ -265,7 +265,7 @@ m.sendMessage(args)
 //كود تغير البلاينج والتويتش
 
 const adminprefix = "^";
-const devs = ['427054141492297728','478627305149956097'];
+const devs = ['430860058591756289','472528809401253889'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -294,8 +294,7 @@ client.on('message' , message => {
  .setDescription("سيرفر الخادم" + `
  **
 سيرفر الخادم المعمول عليه البوت |
-https://discord.gg/83HSKAN
- **
+https://discord.gg/puqfxn **
 `);
   message.author.sendEmbed(embed);
    }
@@ -314,7 +313,7 @@ client.on('message' , message => {
  .setDescription("اضافة البوت" + `
  **
 اضافة البوت |
-http://cutt.us/AlAboDen
+https://discordapp.com/api/oauth2/authorize?client_id=511862728420491264&permissions=0&scope=bot
  **
 `);
   message.author.sendEmbed(embed);
